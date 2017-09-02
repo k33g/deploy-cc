@@ -1,0 +1,25 @@
+{
+  "name": "deploy-cc",
+  "version": "1.0.0",
+  "description": "Provisionning server for Clever Cloud",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm i -g clever-tools",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k33g/deploy-cc.git"
+  },
+  "keywords": [],
+  "author": "Philippe Charrière <ph.charriere@gmail.com> (http://k33g.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k33g/deploy-cc/issues"
+  },
+  "homepage": "https://github.com/k33g/deploy-cc#readme",
+  "dependencies": {
+    "pico": "git+https://git@github.com/k33g/pico.git",
+    "shelljs": "^0.7.8"
+  }
+}
