@@ -33,5 +33,5 @@ Once you have installed the [Clever CLI](https://github.com/CleverCloud/clever-t
 ### Create a nodejs application
 
 ```bash
-curl -H "Content-Type: application/json" -H "Token: yopyop" -X POST -d '{"shell": "clever addon create redis-addon yoaddon -p s -o wey-yu"}' http://deploy-cc.cleverapps.io/api/deploy
+curl -H "Content-Type: application/json" -H "Token: yopyop" -X POST -d '{"shell": "clever create -t node mykillerapp -o wey-yu -a mykillerapp"}' http://deploy-cc.cleverapps.io/api/deploy
 ```
