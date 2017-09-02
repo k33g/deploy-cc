@@ -1,5 +1,5 @@
 # deploy-cc
-Provisionning server for Clever Cloud
+Server provisioning for Clever Cloud
 
 🚧 ⚠️ use with caution | deployment of this application could be longer than usual
 
