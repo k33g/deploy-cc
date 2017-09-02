@@ -15,7 +15,7 @@ let shell =(sh_script) => {
 
 shell(`
   mkdir ~/.config/;
-  cat > clever-cloud << EOF
+  cat > ~/.config/clever-cloud << EOF
   {"token":"${process.env.CC_TOKEN}","secret":"${process.env.CC_SECRET}"}
   EOF  
 `)

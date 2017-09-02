@@ -26,3 +26,12 @@ It could be useful with your CI server (eg, in a Jenkinsfile to provision a VM f
 ### Where to find token and secret
 
 Once you have installed the [Clever CLI](https://github.com/CleverCloud/clever-tools), you can find a file `~/.config/clever-cloud` with these informations
+
+
+## Samples
+
+### Create a nodejs application
+
+```bash
+curl -H "Content-Type: application/json" -H "Token: yopyop" -X POST -d '{"shell": "clever addon create redis-addon yoaddon -p s -o wey-yu"}' http://deploy-cc.cleverapps.io/api/deploy
+```
